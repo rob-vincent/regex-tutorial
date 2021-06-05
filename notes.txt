@@ -1,0 +1,19 @@
+[a-zA-Z]inja // matches ninja, Ninja, zinja, Qinja
+[0-9]{5,8} // matches any number from 0-9 between 5- 8 characters long
+[0-9]{5,} // matches any number from 0-9 with a minimum of 5 characters long
+
+\d // matches any digit characters (same as [0-9])
+\w // matches any word character (a-z, A-Z, 0-9 and underscores ("_"))
+\W // matches any non-word character (special characters)
+\s // matches whitespace character (spaces, tabs, etc)
+\t // matches a tab character only
+\. // matches the character . only
+$ // asserts the end of the string
+
+? // character to the left is optional (ex: "hello?" matches "hell" and "hello")
+. // expects a character (ex: "car." matches "car", "cara", "carb", "carc", etc)
+* // matches between zero or unlimited times (ex: "a[a-z]" matches "a", "asdafgfada", "awerasdv", etc )
+\ //escape a special character
+
+^ // start of string
+$ // end of string
